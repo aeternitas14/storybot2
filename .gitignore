@@ -1,0 +1,7 @@
+# Ignore sensitive and generated files
+.env
+__pycache__/
+*.log
+debug_*
+*.bak
+alert_states/
