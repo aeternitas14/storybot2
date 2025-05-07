@@ -25,9 +25,9 @@ logger = logging.getLogger(__name__)
 class InstagramMonitor:
     def __init__(self):
         # Configuration
-        self.bot_token = os.getenv('BOT_TOKEN', '7569840561:AAHnbeez9FcYFM_IpwyxJ1AwaiqKA7r_jiA')
-        self.instagram_username = os.getenv('INSTAGRAM_USERNAME', 'pearlygatesbaby')
-        self.instagram_password = os.getenv('INSTAGRAM_PASSWORD', 'Bodrum41')
+        self.bot_token = os.getenv('BOT_TOKEN', '')
+        self.instagram_username = os.getenv('INSTAGRAM_USERNAME', '')
+        self.instagram_password = os.getenv('INSTAGRAM_PASSWORD', '')
         self.check_interval_minutes = 5
         self.max_retries = 3
         self.retry_delay = 5
